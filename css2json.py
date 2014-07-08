@@ -1,4 +1,4 @@
-import json as jsonlib
+import json as _jsonlib
 
 
 def css2json(css):
@@ -70,4 +70,4 @@ def css2json(css):
 
         css = css[rbracket+1:].strip()
 
-    return jsonlib.dumps(json)
+    return _jsonlib.dumps(json)
